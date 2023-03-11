@@ -1,0 +1,362 @@
+/* Arete Plaza First Sec */
+.Arete-Plaza-Image.reveal {
+  opacity: 0;
+}
+.Arete-Plaza-SubText.reveal {
+  opacity: 0;
+}
+.Arete-Plaza-Image.reveal.active {
+  opacity: 1;
+}
+.Arete-Plaza-SubText.reveal.active {
+  opacity: 1;
+}
+
+/* Floor plan */
+.Arete-Plaza-FloorPlan-Discoball.reveal {
+  transform: translateY(-200px);
+}
+.Arete-Plaza-FloorPlan-Title.reveal{
+    opacity: 0;
+    transform: translateX(-25rem);
+}
+.Arete-Plaza-FloorPlan-SubText.reveal {
+  opacity: 0;
+}
+.Arete-Plaza-FloorPlan-Image.reveal{
+    opacity: 0;
+    transform: translateX(46.313rem);
+}
+.Arete-Plaza-FloorPlan-Discoball.reveal.active {
+  transform: translateY(0px);
+}
+.Arete-Plaza-FloorPlan-Title.reveal.active{
+    animation: Arete-Plaza-FloorPlan-Title 1 2s linear;
+    opacity: 1;
+    transform: translateX(0px);
+}
+.Arete-Plaza-FloorPlan-SubText.reveal.active {
+  animation: fadein 1 4s linear;
+  opacity: 1;
+}
+.Arete-Plaza-FloorPlan-Image.reveal.active{
+    animation: Arete-Plaza-FloorPlan-Image 1 2s linear;
+    opacity: 1;
+    transform: translateX(0px);
+}
+/*Arete-Plaza-LocationAdv*/
+.Arete-Plaza-LocationAdv-Title.reveal {
+  transform: translateY(-25rem);
+}
+.Arete-Plaza-LocationAdv-Title.reveal.active {
+  animation: Arete-Plaza-LocationAdv-Title 1 2s linear;
+  transform: translateY(0px);
+}
+.Arete-Plaza-LocationAdv-Image.reveal {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.Arete-Plaza-LocationAdv-Image.reveal.active {
+  opacity: 1;
+  animation: Arete-Plaza-LocationAdv-Image 1 2s linear;
+  transform: scale(1, 1);
+}
+.discobal-slidein-top.reveal {
+  transform: translateY(-25rem);
+}
+.discobal-slidein-top.reveal.active {
+  animation: discobal-slidein-top 1 2s linear;
+  transform: translateY(0px);
+}
+.discobal-slidein-top1nh.reveal {
+  transform: translateY(-25rem);
+}
+.discobal-slidein-top1nh.reveal.active {
+  animation: discobal-slidein-top 1 1.5s linear;
+  transform: translateY(0px);
+}
+
+/* */
+.expand.reveal {
+  transform: scale(1, 1);
+}
+.expand.active{
+    animation: expand 1 2s linear;
+    transform: scale(1,1);
+}
+.expand.active:hover{
+    box-shadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px";
+    transform: scale(1.05,1.05);
+}
+.slidein-bottom.reveal{
+    transform: translateY(18.75rem);
+}
+.slidein-bottom.reveal.active {
+  animation: slidein-bottom 1 2s linear;
+  transform: translateY(0px);
+}
+.slidein-bottom.revealOnce{
+  transform: translateY(18.75rem);
+}
+.slidein-bottom.revealOnce.active {
+animation: slidein-bottom 1 2s linear;
+transform: translateY(0px);
+}
+.slidein-bottom-2sdelay.reveal {
+  transform: translateY(18.75rem);
+}
+.slidein-bottom-2sdelay.reveal.active {
+  animation: slidein-bottom-2sdelay 1 4s linear;
+  transform: translateY(0px);
+}
+.slidein-bottom-2sdelay.revealOnce {
+  transform: translateY(18.75rem);
+}
+.slidein-bottom-2sdelay.revealOnce.active {
+  animation: slidein-bottom-2sdelay 1 4s linear;
+  transform: translateY(0px);
+}
+.slidein-bottom-4sdelay.reveal {
+  transform: translateY(18.75rem);
+}
+.slidein-bottom-4sdelay.reveal.active {
+  animation: slidein-bottom-4sdelay 1 6s linear;
+  transform: translateY(0px);
+}
+.slidein-bottom-4sdelay.revealOnce {
+  transform: translateY(18.75rem);
+}
+.slidein-bottom-4sdelay.revealOnce.active {
+  animation: slidein-bottom-4sdelay 1 6s linear;
+  transform: translateY(0px);
+}
+.Icon-fadein.reveal {
+  opacity: 0;
+}
+.Icon-fadein.reveal.active {
+  animation: Icon-fadein 1 2s linear;
+  opacity: 1;
+}
+
+.discoball-slidein-left1.reveal {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left1.reveal.active {
+  animation: discoball-slidein-left1 1 2s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left1.revealOnce {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left1.revealOnce.active {
+  animation: discoball-slidein-left1 1 2s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left2.reveal {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left2.reveal.active {
+  animation: discoball-slidein-left2 1 4s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left2.revealOnce {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left2.revealOnce.active {
+  animation: discoball-slidein-left2 1 4s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left3.reveal {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left3.reveal.active {
+  animation: discoball-slidein-left3 1 6s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left3.revealOnce {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left3.revealOnce.active {
+  animation: discoball-slidein-left3 1 6s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left4.reveal {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left4.reveal.active {
+  animation: discoball-slidein-left4 1 8s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+.discoball-slidein-left4.revealOnce {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.discoball-slidein-left4.revealOnce.active {
+  animation: discoball-slidein-left4 1 8s linear;
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.slideintop-2sdelay.reveal {
+  opacity: 0;
+  transform: translateX(-18.75rem);
+}
+.slideintop-2sdelay.reveal.active {
+  opacity: 1;
+  animation: slideintop-2sdelay 1 4s linear;
+  transform: translateX(0px);
+}
+.fadein-2sdelay.reveal {
+  opacity: 0;
+}
+.fadein-2sdelay.reveal.active{
+    animation:fadein-2sdelay 1 4s linear;
+    opacity: 1;
+}
+.fadein-4sdelay.reveal {
+  opacity: 0;
+}
+.fadein-4sdelay.reveal.active{
+    animation:fadein-4sdelay 1 6s linear;
+    opacity: 1;
+}
+.fadein1.reveal {
+  opacity: 0;
+}
+.fadein1.reveal.active {
+  animation: fadein-6sdelay 1 4s linear;
+  opacity: 1;
+}
+.fadein3s.reveal {
+  opacity: 0;
+}
+.fadein3s.reveal.active {
+  animation: fadein-6sdelay 1 5s linear;
+  opacity: 1;
+}
+.fadein-6sdelay.reveal {
+  opacity: 0;
+}
+.fadein-6sdelay.reveal.active {
+  animation: fadein-6sdelay 1 8s linear;
+  opacity: 1;
+}
+.fadein-6sdelay.reveal {
+  opacity: 0;
+}
+.fadein-6sdelay.reveal.active {
+  animation: fadein-6sdelay 1 8s linear;
+  opacity: 1;
+}
+.fadein-8sdelay.reveal {
+  opacity: 0;
+}
+.fadein-8sdelay.reveal.active {
+  animation: fadein-6sdelay 1 10s linear;
+  opacity: 1;
+}
+.slidein-top.reveal {
+  transform: translateY(-18.75rem);
+}
+.slidein-top.reveal.active {
+  animation: slidein-top 1 2s linear;
+  transform: translateY(0px);
+}
+.slidein-top.revealOnce {
+  transform: translateY(-18.75rem);
+}
+.slidein-top.revealOnce.active {
+  animation: slidein-top 1 2s linear;
+  transform: translateY(0px);
+}
+.slidein-top-2sdelay.reveal {
+  transform: translateY(-21.875rem);
+}
+.slidein-top-2sdelay.reveal.active {
+  animation: slidein-top-2sdelay 1 4s linear;
+  transform: translateY(0px);
+}
+.slidein-top-2sdelay.revealOnce {
+  transform: translateY(-21.875rem);
+}
+.slidein-top-2sdelay.revealOnce.active {
+  animation: slidein-top-2sdelay 1 4s linear;
+  transform: translateY(0px);
+}
+.slidein-top-4sdelay.reveal {
+  transform: translateY(-21.875rem);
+}
+.slidein-top-4sdelay.reveal.active {
+  animation: slidein-top-4sdelay 1 6s linear;
+  transform: translateY(0px);
+}
+.slidein-top-4sdelay.revealOnce {
+  transform: translateY(-21.875rem);
+}
+.slidein-top-4sdelay.revealOnce.active {
+  animation: slidein-top-4sdelay 1 6s linear;
+  transform: translateY(0px);
+}
+.image-sliedleft.reveal {
+  transform: translateX(-100vw);
+}
+.image-sliedleft.reveal.active {
+  animation: image-sliedleft 1 2s linear;
+  transform: translateX(0vw);
+}
+.image-sliedleft.revealOnce {
+  transform: translateX(-100vw);
+}
+.image-sliedleft.revealOnce.active {
+  animation: image-sliedleft 1 2s linear;
+  transform: translateX(0vw);
+}
+.image-sliedright.reveal {
+  transform: translateX(100vw);
+}
+.image-sliedright.reveal.active {
+  animation: image-sliedright 1 2s linear;
+  transform: translateX(0vw);
+}
+.image-sliedright.revealOnce {
+  transform: translateX(100vw);
+}
+.image-sliedright.revealOnce.active {
+  animation: image-sliedright 1 2s linear;
+  transform: translateX(0vw);
+}
+.image-slieddown.reveal {
+  transform: translateY(-100vw);
+}
+.image-slieddown.reveal.active {
+  animation: image-slieddown 1 2s linear;
+  transform: translateY(0vw);
+}
+.image-slieddown.revealOnce {
+  transform: translateY(-100vw);
+}
+.image-slieddown.revealOnce.active {
+  animation: image-slieddown 1 2s linear;
+  transform: translateY(0vw);
+}
+.image-sliedup.reveal {
+  transform: translateY(30vw);
+}
+.image-sliedup.reveal.active {
+  animation: image-sliedup 1 2s linear;
+  transform: translateY(0vw);
+}

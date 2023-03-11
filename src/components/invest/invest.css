@@ -1,0 +1,41 @@
+.discoballmultistep.reveal{
+    opacity: 0;
+    transform: translateY(-32rem);
+}
+.discoballmultistep.reveal.active{
+    opacity: 1;
+    animation: discoballmultistep 1 8s linear;
+    transform: translateY(0rem);
+}
+@keyframes discoballmultistep {
+    0%{
+        transform: translateY(-32rem);
+    } 
+    15%{
+        transform: translateY(-24rem);
+    }
+    25%{
+        transform: translateY(-24rem);
+    }
+    35%{
+        transform: translateY(-19rem);
+    } 
+    45%{
+        transform: translateY(-19rem);
+    } 
+    50%{
+        transform: translateY(-14rem);
+    }
+    60%{
+        transform: translateY(-14rem);
+    } 
+    75%{
+        transform: translateY(-8rem);
+    }
+    85%{
+        transform: translateY(-8rem);
+    }
+    100%{
+        trantransform: translateY(0rem);
+    }
+}

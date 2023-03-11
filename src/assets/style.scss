@@ -1,0 +1,808 @@
+@import "./breakpoints.scss";
+
+@include breakpoint(upto-landscape-tablet-992) {
+    .enquiry-wrapper {
+        .modal-dialog.modal-lg {
+            display: flex;
+            align-items: center;
+            height: calc(100vh - 20px);
+        }
+
+        .modal-content-grid {
+            flex-wrap: wrap;
+        }
+
+        .modal-left-item .desktop-logo {
+            margin: 0;
+
+            @include breakpoint(upto-mobile) {
+                max-width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        .modal-left-item,
+        .modal-right-item {
+            width: 100% !important;
+        }
+
+        .modal-right-item {
+            margin: 1rem 0 0;
+
+            @include breakpoint(upto-mobile) {
+                margin: 0;
+
+                form {
+                    label {
+                        font-size: .875em;
+                    }
+
+                    button {
+                        font-size: .875em;
+                    }
+                }
+
+                @include breakpoint(upto-mobile-mid) {
+                    padding: 0.5rem;
+                }
+            }
+        }
+
+        .left-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            div {
+                width: auto;
+                text-align: center;
+
+                img {
+                    max-width: 90%;
+                    margin: 0 auto .5rem;
+
+                    @include breakpoint(upto-mobile) {
+                        max-width: 26%;
+                    }
+                }
+
+                h2 {
+                    font-size: .875em;
+                }
+            }
+        }
+    }
+
+    .bottom-menu-wrapper {
+
+        button {
+            h2 {
+                margin: 0;
+            }
+
+            .whatsapp-wrap {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    .ourproject-wrapper {
+        padding: .5rem 0 !important;
+
+        .view-btn {
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .carsoule-btn-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 4rem auto 0;
+
+            button {
+                width: 2.5em;
+                height: 2.5em;
+
+                svg {
+                    width: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .smartliving-wrapper {
+        padding: .5rem 0 !important;
+
+        h2 {
+            font-size: 2em;
+        }
+
+        img {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .manage-wrap {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            margin: 0 auto;
+            width: 95%;
+            padding: 3rem 0 1rem;
+            text-align: center;
+
+            img {
+                display: flex;
+                margin: 0 auto 1.5rem;
+            }
+        }
+    }
+
+    .ponner-wrapper {
+        padding: 0 !important;
+        margin: 1rem auto !important;
+        width: 95% !important;
+
+        .poinner-heading {
+            margin: 0 !important;
+            justify-content: center !important;
+
+            .slidein-top {
+                >div {
+                    display: block;
+                    text-align: center;
+                    position: relative;
+                    font-size: 37px;
+
+                    @include breakpoint(upto-mobile-375) {
+                        font-size: 30px;
+                    }
+
+                    img {
+                        display: flex;
+                        margin: 0 auto;
+                    }
+
+                    .pvt-wrap {
+                        top: 10px;
+                        bottom: inherit;
+                        position: relative;
+                    }
+                }
+            }
+        }
+
+        @include breakpoint(upto-mobile) {
+            .poinner-grid-wrap {
+                flex-wrap: wrap;
+                justify-content: center;
+                display: block;
+
+                .poinner-grid-img {
+                    width: 100%;
+
+                    img {
+                        max-width: 100%;
+                        margin: 0 auto;
+                    }
+                }
+
+                .poinner-grid-right {
+                    padding: .5rem 0 !important;
+                    text-align: center;
+
+                    .slidein-top {
+                        display: none;
+                    }
+
+                    .fadein-wrap {
+                        display: flex;
+                        margin: 1rem 0 4.5rem;
+                        height: max-content;
+                        flex-wrap: wrap;
+
+                        h2 {
+                            text-align: center;
+                            width: 100%;
+                            font-size: 1.5em;
+                        }
+
+                        button {
+                            display: block;
+                            margin: 0 auto;
+                            font-size: 1em;
+                        }
+                    }
+
+                    .carausel-btn-wrap {
+                        width: 100%;
+                        position: absolute;
+                        bottom: -63px;
+                        left: 40%;
+
+                        @include breakpoint(upto-mobile-375) {
+                            left: 35%;
+                        }
+
+                        button {
+                            width: 2.5em;
+                            height: 2.5em;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            svg {
+                                width: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .brands-wrapper {
+        @include breakpoint (upto-tablet) {
+            padding: 1rem 0 !important;
+
+            .brands-content-wrap {
+                padding: 0 !important;
+                width: 95%;
+                margin: 0 auto;
+
+                h2 {
+                    font-size: 2.5em;
+                }
+
+                .brands-img-wrap {
+                    img {
+                        max-width: 90%;
+                        height: 100%;
+                        object-fit: cover;
+                        margin: 0 auto;
+                    }
+                }
+
+                @include breakpoint (upto-mobile) {
+                    display: block !important;
+
+                    .text-brand {
+                        width: 100%;
+                        text-align: center;
+                        padding: 0 0 1rem !important;
+
+                        h2 {
+                            font-size: 2.2em;
+
+                            @include breakpoint(upto-mobile-mid) {
+                                font-size: 1.6em;
+                            }
+                        }
+                    }
+
+                    .brand-item {
+                        display: none;
+                    }
+
+                    .brands-img-wrap {
+                        display: block;
+                        padding: 1rem 0;
+
+                        img {
+                            max-width: 50%;
+                            height: 100%;
+                            object-fit: cover;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+
+            @include breakpoint(upto-mobile) {
+                .OURALLIANCES {
+                    h2 {
+                        font-size: 1.9em;
+
+                        @include breakpoint(upto-mobile-mid) {
+                            font-size: 1.5em;
+                        }
+                    }
+
+                    .alliance-brand-wrap {
+                        padding: 1rem 0;
+                        width: 95%;
+                        margin: 0 auto;
+
+                        .slick-slider {
+                            .slick-track {
+                                display: flex;
+                                flex-wrap: wrap;
+                                grid-gap: 1rem;
+                                align-items: center;
+
+                                img {
+                                    width: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials-wrapper {
+        padding: .5rem 0 !important;
+        width: 95%;
+        margin: 0 auto;
+
+        .testimonal-heading {
+            display: block;
+            padding: .5rem 0;
+
+            >div {
+                background: transparent;
+                width: 100%;
+                text-align: center;
+                padding: 0;
+                display: block;
+
+                br {
+                    display: none !important;
+                }
+
+                >p {
+                    color: #000;
+                    font-size: 1.5em;
+                }
+            }
+        }
+
+        .testimonal-video-wrap {
+            position: relative;
+            left: 0;
+
+            iframe {
+                width: 90%;
+                height: 300px;
+                margin: 0 auto 1.5rem;
+
+                @include breakpoint (upto-mobile) {
+                    height: 200px;
+                }
+            }
+        }
+
+        .testimonal-caption-wrapper {
+            width: 95%;
+            margin: 2rem 1rem 1rem;
+
+            .testimonal-content-grid {
+                display: block;
+
+                .icon-left {
+                    width: 28px;
+                    height: max-content;
+                    left: -2%;
+                    top: -20px;
+
+                    @include breakpoint(upto-mobile-mid) {
+                        width: 23px;
+                    }
+                }
+
+                .icon-right {
+                    width: 28px;
+                    height: max-content;
+                    right: -2%;
+                    bottom: 20px;
+
+                    @include breakpoint(upto-mobile-mid) {
+                        width: 23px;
+                    }
+                }
+            }
+
+            .testimonal-caption-item2 {
+                margin: 2rem 0 !important;
+            }
+
+            .testimonal-caption-item1,
+            .testimonal-caption-item2,
+            .testimonal-caption-item3 {
+                display: block;
+                height: inherit;
+                margin: .5rem 0;
+                padding: 0 !important;
+
+                p {
+                    text-align: center;
+                }
+
+                .testmonal-avatar-wrap {
+                    height: initial;
+                    padding: 0 !important;
+                    margin: 0 auto 0 9rem;
+                    align-items: center;
+
+                    @include breakpoint(upto-mobile) {
+                        margin: 0 auto 0 6rem;
+
+                        @include breakpoint (upto-mobile-mid) {
+                            margin: 0 auto 0 3rem;
+                        }
+                    }
+
+                    p {
+                        text-align: left;
+                    }
+
+                    .avatar-icon {
+                        width: 4rem;
+                        height: 4rem;
+
+                        svg {
+                            width: 79%;
+                        }
+
+                        @include breakpoint(upto-mobile) {
+                            width: 3rem;
+                            height: 3rem;
+
+                            svg {
+                                width: 60%;
+                            }
+                        }
+                    }
+
+                    .avatar-caption-text {
+                        p {
+                            margin: 0 0 .5rem;
+
+                            @include breakpoint(upto-mobile) {
+                                word-break: break-word;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about-whowe-wrapper {
+        padding: 0 !important;
+
+        @include breakpoint(upto-mobile) {
+            >div>div {
+                padding-bottom: 0;
+            }
+        }
+
+        .fadein-2sdelay {
+            padding-bottom: .8rem;
+        }
+    }
+
+    .consulting-wrap {
+        .unorder-wrapper {
+            width: 95%;
+            margin: 0 auto;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
+                display: flex;
+                flex-wrap: wrap;
+                grid-gap: .5rem 1rem;
+                justify-content: center;
+
+                li {
+                    float: inherit !important;
+                    width: max-content;
+                }
+            }
+        }
+    }
+
+    .ourexpetise-wrapper {
+        padding: 0 !important;
+
+        @include breakpoint(upto-mobile) {
+            >div>div {
+                padding-bottom: 0;
+            }
+        }
+
+        .fadein-2sdelay {
+            padding: 0 .5rem .8rem !important;
+
+            @include breakpoint(upto-mobile) {
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+
+                    @include breakpoint(upto-mobile-375) {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .project-dev-wrapper {
+        .project-dev-grid {
+            .slick-slider {
+                width: 95%;
+                margin: 0 auto;
+
+                .slick-track {
+                    display: grid;
+                    width: 100% !important;
+                    grid-template-columns: repeat(3, 1fr);
+                    justify-content: center;
+                    text-align: center;
+
+                    @include breakpoint (upto-mobile) {
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-gap: 1rem;
+
+                        @include breakpoint(upto-mobile-320) {
+                            grid-template-columns: repeat(1, 1fr);
+                        }
+
+                        div {
+                            h2 {
+                                font-size: 1.2em;
+                            }
+
+                            button {
+                                font-size: 14px;
+                            }
+
+                            img {
+                                max-width: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+
+                    div {
+                        width: 100% !important;
+
+                        button {
+                            margin: .5rem 0 1rem;
+                        }
+                    }
+
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .prime-grid-gallery {
+        .cmn-card {
+            width: 99%;
+        }
+
+        @include breakpoint (upto-mobile-375) {
+
+            >div {
+                padding: 0;
+            }
+        }
+    }
+
+    .enterprise-dropdown-wrapper,
+    .serviced-apartments-dropdown {
+        .chakra-accordion__item {
+            @include breakpoint(upto-mobile) {
+                .chakra-collapse {
+                    .chakra-accordion__item {
+                        padding: .5rem 1rem;
+
+                        button {
+                            width: 100%;
+                            margin: 0 auto;
+                            font-size: .875em;
+                            padding: .5rem 0 0;
+
+                            @include breakpoint(upto-mobile-mid) {
+                                font-size: .79em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            h2 {
+                button {
+                    width: 90%;
+                    margin: 0 auto;
+                    padding: .8rem 0;
+
+                    @include breakpoint(upto-mobile-mid) {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+    .serviced-apartments-dropdown {
+        @include breakpoint(upto-mobile) {
+            padding: 0 !important;
+
+            .chakra-collapse {
+                >div {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .arete-homes-wrapper {
+        h2 {
+            width: 100%;
+            padding: .5rem 0 !important;
+
+            @include breakpoint(upto-mobile-mid) {
+                font-size: 1.6em;
+            }
+        }
+    }
+
+    .arete-homes-invest-banner {
+        @include breakpoint (upto-mobile) {
+            .chakra-text {
+                font-size: 2rem;
+                left: 1rem;
+                top: 70%;
+
+                @include breakpoint(upto-mobile-320) {
+                    font-size: 1.6em;
+                    left: 12px;
+                }
+            }
+        }
+    }
+
+    .arete-grid-btn {
+        >div {
+            @include breakpoint(upto-mobile-375) {
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .home-loan-wrap {
+            @include breakpoint(upto-mobile-375) {
+                height: auto;
+            }
+
+            .fadein {
+                @include breakpoint (upto-mobile-mid) {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+
+                    @include breakpoint(upto-mobile-375) {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                }
+            }
+        }
+    }
+
+    .financial-model-wrap {
+        width: 95%;
+        margin: 0 auto;
+        padding: .5rem 0 !important;
+
+        @include breakpoint(upto-mobile-375) {
+            text-align: center;
+        }
+
+        .financial-model-content {
+            @include breakpoint(upto-mobile) {
+                display: block;
+
+                div {
+                    width: 95%;
+                    margin: 0 auto;
+                }
+
+                .diveder-finance,
+                .discoballmultistep {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .terms-wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .about-whowe-wrapper {
+        .channel-text {
+            width: 95% !important;
+            margin: 0 auto;
+        }
+    }
+
+    .sale-manager-wrap {
+        .chakra-link {
+            div {
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .refer-btn-wrap {
+        button {
+            @include breakpoint(upto-mobile-375) {
+                font-size: 13px;
+            }
+        }
+    }
+
+   
+}
+
+@include breakpoint(upto-mobile) {
+    .social-wrap{
+        a{
+            svg{
+                width:  45px;
+                height: 45px;
+            }
+        }
+    }
+    .blog-community-wrap{
+        position: relative!important;
+    }
+    .slide-arrow-btn{
+        button{
+            transform: translateX(-23px);
+        }
+    }
+    body.tawk-mobile{
+        // border: 5px solid red !important;
+    }
+   body .widget-visible {
+    // width: 300px!important;
+    // height: 300px!important;
+    // border: 5px solid red !important;
+        iframe {
+            // border: 5px solid red !important;
+            width: 115px !important;
+            height: 63px !important;
+            max-height: 53px !important;
+            max-width: 141px !important;
+            bottom: -2px !important;
+            .tawk-min-container{
+                button{
+                    height: 100%!important;
+                    width: 100%!important;
+                }
+            }
+            .tawk-mobile{
+                // border: 40px solid green!important;
+            }
+        }
+    }
+}

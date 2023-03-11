@@ -1,0 +1,21 @@
+.blog-text-right.reveal.active{
+    animation: blog-text-right 1 2s linear;
+    transform: translateX(0rem);
+}
+.blog-image-left.reveal.active{
+    animation: blog-image-left 1 2s linear;
+    transform: translateX(0rem);
+}
+.blog-text-right.reveal{
+    transform: translateX(6.25rem);
+}
+.blog-image-left.reveal{
+    transform: translateX(-6.25rem);
+}
+.blog-image-down.reveal.active{
+    animation:blog-banner-down 1 2s linear;
+    transform: translateY(0rem);
+}
+.blog-image-down.reveal{
+    transform: translateY(-6.25rem);
+}

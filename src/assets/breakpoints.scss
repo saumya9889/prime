@@ -1,0 +1,164 @@
+// Breakpoints for Media query.
+@mixin breakpoint($point) {
+  @if $point ==x-wide-screen {
+    @media (min-width: 1566px) {
+      @content;
+    }
+  }
+
+  @else if $point ==wide-screen {
+    @media (min-width: 1441px) {
+      @content;
+    }
+  }
+
+  @else if $point ==xl-desktop {
+    @media (min-width: 1300px) {
+      @content;
+    }
+  }
+
+  @else if $point ==desktop {
+    @media (min-width: 1280px) {
+      @content;
+    }
+  }
+
+  @else if $point ==landscape-tablet {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+
+  @else if $point ==tablet-992 {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $point ==tablet {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @else if $point ==mobile {
+    @media (min-width: 560px) {
+      @content;
+    }
+  }
+
+  @else if $point ==sm-mobile {
+    @media (min-width: 361px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-mobile-320 {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-mobile-375 {
+    @media only screen and (max-width: 375px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-Iphone13-390 {
+    @media only screen and (max-width: 390px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-mobile-mid {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-mobile {
+    @media only screen and (max-width: 559px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-tablet {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-tablet-800 {
+    @media only screen and (max-width: 800px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-landscape-tablet-992 {
+    @media only screen and (max-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-landscape-tablet {
+    @media only screen and (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-desktop {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-wide-screen {
+    @media only screen and (max-width: 1441px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-X-wide-screen {
+    @media only screen and (max-width: 1566px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-Semi-XL-wide-screen {
+    @media only screen and (max-width: 1800px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-XL-wide-screen {
+    @media only screen and (max-width: 2000px) {
+      @content;
+    }
+  }
+
+  @else if $point ==upto-XXL-wide-screen {
+    @media only screen and (max-width: 2500px) {
+      @content;
+    }
+  }
+}
+
+// Device orientation.
+@mixin orientation($direction) {
+  $orientation-landscape: "(orientation:landscape)";
+  $orientation-portrait: "(orientation:portrait)";
+
+  @if $direction ==landscape {
+    @media #{$orientation-landscape} {
+      @content;
+    }
+  }
+
+  @if $direction ==portrait {
+    @media #{$orientation-portrait} {
+      @content;
+    }
+  }
+}

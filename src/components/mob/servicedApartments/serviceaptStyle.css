@@ -1,0 +1,84 @@
+.serv-text-up.reveal{
+    transform: translateY(-10rem);
+}
+.serv-text-up.reveal.active{
+    animation: serv-text-up 1 1s linear;
+    transform: translateY(0rem);
+}
+.serv-text-down.reveal{
+    transform: translateY(10rem);
+}
+.serv-text-down.reveal.active{
+    animation: serv-text-down 1 1s linear;
+    transform: translateY(0rem);
+}
+.fadein.reveal{
+    opacity: 0;
+}
+.fadein.reveal.active{
+    animation: fadein 1 2s linear;
+    opacity: 1;
+}
+.fadein2.reveal{
+    opacity: 0;
+}
+.fadein2.reveal.active{
+    animation: fadein2 1 4s linear;
+    opacity: 1;
+}
+.fadein3.reveal{
+    opacity: 0;
+}
+.fadein3.reveal.active{
+    animation: fadein3 1 6s linear;
+    opacity: 1;
+}
+.fadein4.reveal{
+    opacity: 0;
+}
+.fadein4.reveal.active{
+    animation: fadein3 1 8s linear;
+    opacity: 1;
+}
+.discoleft1.reveal{
+    transform: translateX(-20rem);
+}
+.discoleft1.reveal.active{
+    animation: discoleft1 1 2s linear;
+    transform: translateX(0rem);
+}
+.discoleft2.reveal{
+    transform: translateX(-20rem);
+}
+.discoleft2.reveal.active{
+    animation: discoleft2 1 4s linear;
+    transform: translateX(0rem);
+}
+.discoleft3.reveal{
+    transform: translateX(-20rem);
+}
+.discoleft3.reveal.active{
+    animation: discoleft3 1 6s linear;
+    transform: translateX(0rem);
+}
+.discoleft4.reveal{
+    transform: translateX(-20rem);
+}
+.discoleft4.reveal.active{
+    animation: discoleft3 1 8s linear;
+    transform: translateX(0rem);
+}
+.discoup.reveal{
+    transform: translateY(-30rem);
+}
+.discoup.reveal.active{
+    animation: discoup 1 2s linear;
+    transform: translateY(0rem);
+}
+.serv-expand-img.reveal{
+    transform: scale(0.7,0.7);
+}
+.serv-expand-img.reveal.active{
+    animation:serv-expand-img 1 2s linear;
+    transform: scale(1,1);
+}

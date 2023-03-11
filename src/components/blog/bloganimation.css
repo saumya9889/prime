@@ -1,0 +1,48 @@
+@keyframes blog-banner-down{
+    from {
+        transform: translateY(-6.25rem);
+      }
+      to {
+        transform: translateY(0rem);
+      }
+}
+@keyframes blog-banner-up{
+  from {
+      transform: translateY(6.25rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+}
+@keyframes blog-banner-left{
+  from {
+      transform: translateX(-6.25rem);
+    }
+    to {
+      transform: translateX(0rem);
+    }
+}
+@keyframes blog-banner-right{
+  from {
+      transform: translateX(6.25rem);
+    }
+    to {
+      transform: translateX(0rem);
+    }
+}
+@keyframes blog-text-right{
+    from {
+        transform: translateX(6.25rem);
+      }
+      to {
+        transform: translateX(0rem);
+      }
+}
+@keyframes blog-image-left{
+  from {
+      transform: translateX(-6.25rem);
+    }
+    to {
+      transform: translateX(0rem);
+    }
+}

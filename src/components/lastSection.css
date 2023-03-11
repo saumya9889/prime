@@ -1,0 +1,15 @@
+.slide-animation{
+    animation-name: rightToLeft linear infinite;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes rightToLeft {
+    0% {
+        transform : translateX(600px)
+    }
+    100%{
+        transform: translateX(-160px);
+    }
+}

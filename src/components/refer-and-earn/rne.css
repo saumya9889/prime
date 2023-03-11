@@ -1,0 +1,118 @@
+.slidein-top.reveal{
+    transform: translateY(-25rem);
+}
+.slidein-top.reveal.active{
+    animation:slidein-top 1 2s linear;
+    transform: translateY(0px);
+}
+.slidein-top.revealOnce{
+    transform: translateY(-25rem);
+}
+.slidein-top.revealOnce.active{
+    animation:slidein-top 1 2s linear;
+    transform: translateY(0px);
+}
+.fadein.reveal{
+    opacity: 0;
+}
+.fadein.reveal.active{
+    animation:fadein 1 2s linear;
+    opacity: 1;
+}
+.fadein.revealOnce{
+    opacity: 0;
+}
+.fadein.revealOnce.active{
+    animation:fadein 1 2s linear;
+    opacity: 1;
+}
+.fadein-2sdelay.revealOnce{
+    opacity: 0;
+}
+.fadein-2sdelay.revealOnce.active{
+    animation:fadein-2sdelay 1 3s linear;
+    opacity: 1;
+}
+.fadein-2sdelay.reveal{
+    opacity: 0;
+}
+.fadein-2sdelay.reveal.active{
+    animation:fadein-2sdelay 1 4s linear;
+    opacity: 1;
+}
+.fadein-4sdelay.revealOnce{
+    opacity: 0;
+}
+.fadein-4sdelay.revealOnce.active{
+    animation:fadein-4sdelay 1 6s linear;
+    opacity: 1;
+}
+.fadein-6sdelay.revealOnce{
+    opacity: 0;
+}
+.fadein-6sdelay.revealOnce.active{
+    animation:fadein-6sdelay 1 8s linear;
+    opacity: 1;
+}
+.fadein-4sdelay.reveal{
+    opacity: 0;
+}
+.fadein-4sdelay.reveal.active{
+    animation:fadein-4sdelay 1 6s linear;
+    opacity: 1;
+}
+.sliderightdisco.reveal{
+    opacity: 0;
+    transform: translateY(-31.25rem);
+}
+.sliderightdisco.reveal.active{
+    opacity: 1;
+    animation:sliderightdisco 1 2s linear;
+    transform: translateY(0px);
+}
+.sliderightdisco-2sdelay.reveal{
+    opacity: 0;
+    transform: translateY(-31.25rem);
+}
+.sliderightdisco-2sdelay.reveal.active{
+    opacity: 1;
+    animation:sliderightdisco-2sdelay 1 4s linear;
+    transform: translateY(0px);
+}
+.sliderightdisco-4sdelay.reveal{
+    opacity: 0;
+    transform: translateY(-31.25rem);
+}
+.sliderightdisco-4sdelay.reveal.active{
+    opacity: 1;
+    animation:sliderightdisco-4sdelay 1 6s linear;
+    transform: translateY(0px);
+}
+
+.expandcar.reveal{
+    opacity: 0;
+    transform: scale(0.01,0.01);
+}
+.expandcar.reveal.active{
+    opacity: 1;
+    animation:expandcar 1 2s linear;
+    transform: scale(1,1);
+}
+.expandcar.revealOnce{
+    opacity: 0;
+    transform: scale(0.01,0.01);
+}
+.expandcar.revealOnce.active{
+    opacity: 1;
+    animation:expandcar 1 2s linear;
+    transform: scale(1,1);
+}
+.expandcar.revealAgain{
+    opacity: 0;
+    transform: scale(0.01,0.01);
+}
+.expandcar.revealAgain.active{
+    opacity: 1;
+    animation:expandcar 1 2s linear;
+    transform: scale(1,1);
+}
